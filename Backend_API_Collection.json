@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "997d78d6-b165-4889-bd9b-59e3e5adea92",
+		"name": "Backend API - Task Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49919633",
+		"_collection_link": "https://mayankchanore03-2712091.postman.co/workspace/Mayank-Chanore's-Workspace~00a80af1-c2cb-4d0e-8f9d-a96f7801d203/collection/49919633-997d78d6-b165-4889-bd9b-59e3e5adea92?action=share&source=collection_link&creator=49919633"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Tasks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
