@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+  background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Main Container */
+.container {
+  background-color: #ffffff;
+  margin-top: 60px;
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  padding: 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+h3 {
+  color: #555;
+  margin: 25px 0 10px 0;
+  border-left: 4px solid #7e57c2;
+  padding-left: 8px;
+  text-align: left;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.2s;
+  background-color: #f8f9fa;
+}
+
+input:focus {
+  border-color: #7e57c2;
+  box-shadow: 0 0 6px rgba(126, 87, 194, 0.4);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #7e57c2, #ab47bc);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #6a1b9a, #8e24aa);
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+li {
+  background: #f3e5f5;
+  border-left: 4px solid #7e57c2;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 15px;
+  color: #444;
+  transition: background 0.2s ease;
+}
+
+li:hover {
+  background: #ede7f6;
+}
+
+/* Scrollbar */
+ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background-color: #b39ddb;
+  border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    padding: 25px;
+  }
+}
+.Toastify__toast--success {
+  background: linear-gradient(90deg, #7e57c2, #ab47bc);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: #e53935;
+  color: white;
+}
